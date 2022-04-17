@@ -7,7 +7,7 @@
         </div>
     @endif
     @error('title')
-    <div class=" form-control error alert alert-danger">
+    <div class="alert alert-danger">
         {{ $message }}
     </div>
     @enderror
